@@ -1,0 +1,190 @@
+/* base */
+
+h1, h2 {
+	font-family: Raleway;
+	font-weight: bold;
+	margin: 50px 0;
+}
+
+/* layout */
+
+body {
+	font-family: Lato;
+
+	.line {
+		width: 90px;
+		border: 1px solid #ccc;
+		margin: 50px auto;
+	}
+}
+
+header {
+	background: url("../images/hero.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
+
+	.teaser {
+		position: absolute;
+		width: 500px;
+		height: 200px;
+		left:0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+
+		h1 {
+			margin: 0;
+		}
+	}
+		
+	.next {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+	}
+}
+
+#services {
+	margin-bottom: 100px;
+
+	.img {
+		height: 200px;
+	}
+}
+
+#about_us {
+	background: url("../images/about.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+
+	.featurette-heading {
+		margin: 175px 0;
+		color: #fff;
+
+		h2 {
+			margin: 0;
+		}
+
+		a {
+			color: #fff;
+		}
+	}
+
+	.featurette-image {
+		margin: 75px 0;
+
+		img {
+			float: right;
+		}
+	}
+}
+
+#our_work {
+
+	.hover {
+		display: none;
+	}
+
+	.col-md-4:hover {
+		.hover {
+			display: block;
+			top: 0;
+			position: absolute;
+			color: #fff;
+		}
+
+		p {
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+
+		a {
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			text-align: center;
+		}
+	}
+
+	a.btn {
+		margin: 50px;
+		padding: 20px 150px;
+		border: 2px solid #000;
+		color: #000;
+	}
+}
+
+footer {
+	background: url("../images/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #fff;
+	position: relative;
+
+	.fa {
+		margin: 0 10px;
+	}
+
+	form {
+		position: absolute;
+		width: 500px;
+		height: 200px;
+		left:0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		text-align: center;
+		
+		.form-control {
+			background-color: initial;
+			border: none;
+			border-bottom: 2px solid #fff;
+			margin: 40px 0;
+			width: 45%;
+			float: left;
+			font-style: italic;
+
+			&:first-child {
+				margin-right: 10%;
+			}
+
+			&:nth-child(3) {
+				width: 100%;
+			}
+		}
+
+		.btn {
+			background-color: initial;
+			color: #fff;
+			margin: 40px;
+			padding: 10px 40px;
+		}
+	}
+}
+
+/* module */
+
+
+
+/* state */
